@@ -1,8 +1,6 @@
 'use strict'
 
-
-let a = '5' * 1 + '2' * 1;
-console.log(a);
-
-
-
+let num1 = 3;
+let num2 = num1++;
+console.log(num1); // 4
+console.log(num2); // 3
