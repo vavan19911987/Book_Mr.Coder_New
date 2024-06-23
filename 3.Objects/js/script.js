@@ -36,28 +36,28 @@
 // console.log(obj.e5);
 
 
-let obj = {
-    x: 1,
-    y: 2,
-    z: 3
-};
+// let obj = {
+//     x: 1,
+//     y: 2,
+//     z: 3
+// };
+//
+// obj.x *= 2;
+// obj.y *= 2;
+// obj.z *= 2;
+// console.log(obj);
 
-obj.x *= 2;
-obj.y *= 2;
-obj.z *= 2;
-console.log(obj);
+// let obj = {};
+// obj.a = 1;
+// obj.b = 2;
+// obj.c = 3;
+// console.log(obj);
 
-
-
-
-
-
-
-
-
-
-
-
+// let obj = {x: 1, y: 2, z: 3};
+//
+// console.log(Object.keys(obj));
 
 
+let obj = {x: 1, y: 2, z: 3};
+console.log(Object.keys(obj).length);
 
