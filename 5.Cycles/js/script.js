@@ -27,13 +27,13 @@
 // ? Дан следующий объект:
 // ? Выведите в консоль те элементы объекта, значения которых - нечетные числа.
 
-let obj = {
-    a: 1,
-    b: 2,
-    c: 3,
-    d: 4,
-    e: 5
-};
+// let obj = {
+//     a: 1,
+//     b: 2,
+//     c: 3,
+//     d: 4,
+//     e: 5
+// };
 // let keys = Object.values(obj);
 // for (let i = 0; i < keys.length; i++) {
 //     if (keys[i] % 2 === 1) {
@@ -50,14 +50,27 @@ let obj = {
 //     }
 // }
 
-let str = '';
-for (let i = 1; i <= 5; i++) {
-    str += '-' + i;
+// let sum = 0
+// let counter = 0
+// for (let i = 0; i <= 100; i++) {
+//     sum += i
+//     if (sum > 100){
+//         counter = i
+//         break;
+//     }
+// }
+// console.log(counter)
+// console.log(sum)
+
+
+// ? С помощью двух вложенных циклов выведите на экран следующую строку:
+// ? 11 12 13 21 22 23 31 32 33
+
+for (let i = 1; i <= 3; i++) {
+    for (let j = 1; j <= 3; j++) {
+        document.write(i + '' +  j + '\n')
+    }
 }
-str += '-';
-console.log(str)
-
-
 
 
 
