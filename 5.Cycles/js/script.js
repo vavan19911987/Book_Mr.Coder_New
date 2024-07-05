@@ -121,21 +121,41 @@
 // ? Возьмите из этого массива те элементы, у которых первая
 // ? цифра 1 или 2, и найдите их сумму.
 
-let arr = [10, 20, 30, 40, 21, 32, 51];
-let sum = 0;
-for (const number of arr) {
-    let test = String(number)[0]
-    if (test === '1' || test === '2') {
-        sum += number;
+// let arr = [10, 20, 30, 40, 21, 32, 51];
+// let sum = 0;
+// for (const number of arr) {
+//     let test = String(number)[0]
+//     if (test === '1' || test === '2') {
+//         sum += number;
+//     }
+// }
+// console.log(sum)
+
+// ? Исправьте ошибки, допущенные в следующем коде:
+
+// let obj = {
+//     a: 10,
+//     b: 20,
+//     c: 30,
+//     d: 40,
+//     e: 50
+// };
+// let sum = 0;
+// for (let elem in obj) {
+//     if (String(obj[elem])[0] === '1' || String(obj[elem])[0] === '2') {
+//         sum += obj[elem];
+//     }
+// }
+// console.log(sum);
+
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let res = [];
+
+for (let elem of arr) {
+    if (elem % 2 !== 0) {
+        res.push(elem);
     }
 }
-console.log(sum)
 
-
-
-
-
-
-
-
-
+console.log(res);
