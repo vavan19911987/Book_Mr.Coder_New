@@ -250,59 +250,123 @@
 // ! 9
 // Дан массив с числами. С помощью цикла найдите сумму квадратов
 // элементов этого массива.
-let arrNumbers = [1, 4, 5, 7, 8, 9, 22, 31, 44, 10];
-function sumSquareNumArr(number) {
-    let result = 0;
-  for (let i = 0; i < number.length; i++) {
-      result += number[i] ** 2;
-  }
-    return result;
-}
-let result = sumSquareNumArr(arrNumbers);
-console.log(result)
+// let arrNumbers = [1, 4, 5, 7, 8, 9, 22, 31, 44, 10];
+// function sumSquareNumArr(number) {
+//     let result = 0;
+//   for (let i = 0; i < number.length; i++) {
+//       result += number[i] ** 2;
+//   }
+//     return result;
+// }
+// let result = sumSquareNumArr(arrNumbers);
+// console.log(result)
 
 
 // ! 10
 // Дан массив с числами. Найдите среднее арифметическое его элементов.
-
+// let arrNumbers = [1, 4, 5, 7, 8, 9, 22, 31, 44, 10];
+// function average(arr) {
+//     let sum = 0;
+//     for (const arrElement of arr) {
+//         sum += arrElement;
+//     }
+//     return sum / arr.length;
+// }
+// let result = average(arrNumbers);
+// console.log(result);
 
 // ! 11
 // Напишите скрипт, который будет находить факториал числа.
 // Факториал - это произведение всех целых чисел от единицы до заданного числа.
-
+// function factorial(numberFac) {
+//     if (numberFac < 0 || !Number.isInteger(numberFac)) {
+//         return  'Не корректное число';
+//     }
+//     if (numberFac === 1 || numberFac === 0) {
+//         return 1;
+//     }
+//     // let factorial = 1
+//
+//     // while (numberFac >= 1) {
+//     //     factorial *= numberFac
+//     //     numberFac--;
+//     // }
+//     return numberFac * factorial(numberFac - 1);// интересный подход
+// }
+// let res = factorial(5)
+// console.log(res);
 
 // ! 12
 // Заполните массив числами от 10 до 1 с помощью цикла.
+// let arr = [];
+// for (let i = 10; i >= 1; i--) {
+//     arr.push(i);
+// }
+// console.log(arr);
 
 // ! 13
 // Дан массив с числами. Числа могут быть положительными и
 // отрицательными. Найдите сумму положительных элементов массива.
+// let arrNumbers = [1, 4, -5, -7, 5, -9, -22, -31, -44, 10];
+// let positiveSum = 0
+// for (const arrNumber of arrNumbers) {
+//     if (arrNumber >= 0) {
+//         positiveSum += arrNumber;
+//     }
+// }
+// console.log(positiveSum)
 
 // ! 14
 // Дан массив числами, например:
 // Выведите на экран только те числа из массива, которые начинаются
 // на цифру 1, 2 или 5.
 // let arr = [10, 20, 30, 50, 235, 3000];
+// for (let i = 0; i < arr.length; i++) {
+//     let firstNum = String(arr[i])[0]
+//     if (firstNum === '1' || firstNum === '2' || firstNum === '5') {
+//         console.log(arr[i]);
+//     }
+// }
 
 // ! 15
 // Дан массив с числами. Выведите элементы этого массива в обратном порядке.
+// let arr = [10, 20, 30, 50, 235, 3000].reverse();
+// console.log(arr)
+// let arr = [10, 20, 30, 50, 235, 3000]
+// let arrReverse = [];
+// for (let i = arr.length -1; i >= 0; i--) {
+//     arrReverse.push(arr[i]);
+// }
+// console.log(arrReverse)
+
 
 // ! 16
 // Дан массив с числами. С помощью цикла выведите на экран
 // все элементы, значение которых совпадает с их порядковым номером в массиве.
+// let arr = [0, 1, 3, 0, 4, 7, 6];
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === i) {
+//         console.log(arr[i]);
+//     }
+// }
 
 // ! 17
 // Дан массив с числами. С помощью цикла for и функции document.write
 // выведите каждый элемент массива с новой строки. Используйте для этого тег br.
+// let arr = [0, 1, 3, 0, 4, 7, 6];
+// for (let i = 0; i < arr.length; i++) {
+//     document.write(arr[i] + '</br>');
+// }
 
 // ! 18
 // Дан массив с числами. С помощью цикла for и функции document.write выведите каждый элемент массива в отдельном абзаце.
-
+// let arr = [0, 1, 3, 0, 4, 7, 6];
+// for (let i = 0; i < arr.length; i++) {
+//     document.write(`<p> ${arr[i]} </p> </br>`);
+// }
 
 // ! 19
-// Составьте массив дней недели. С помощью цикла for выведите все
-// дни недели, а выходные дни выведите жирным.
-
+// Тут была задача не по теме
 // ! 20
 // Составьте массив дней недели. С помощью цикла for выведите все дни недели, а текущий день выведите курсивом. Номер текущего дня должен храниться в переменной day.
 
