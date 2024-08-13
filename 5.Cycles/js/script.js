@@ -369,7 +369,17 @@
 // Тут была задача не по теме
 // ! 20
 // Составьте массив дней недели. С помощью цикла for выведите все дни недели, а текущий день выведите курсивом. Номер текущего дня должен храниться в переменной day.
-
+// let day = ['Понедельник', 'Втовник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
+// let data =  new Date().getDay() - 1;
+// let body = document.querySelector('body');
+// for (let i = 0; i < day.length; i++) {
+//     let par = document.createElement('p');
+//     par.textContent = day[i]
+//     if (i === data) {
+//         par.style.color = 'red'
+//     }
+//     body.append(par)
+// }
 
 // ! 21
 // Дан следующий объект с работниками и их зарплатами:
@@ -383,21 +393,49 @@
 //     employee6: 600,
 //     employee7: 700,
 // };
-
+// let percent = 10;
+// const num = 100;
+// for (let objKey in obj) {
+//     obj[objKey] = (obj[objKey] * percent / num) + obj[objKey];
+// }
+// console.log(obj)
 
 // ! 22
 // Модифицируйте предыдущую задачу так, чтобы зарплата увеличивалась только тем работникам, у которых она меньше или равна 400.
+// let obj = {
+//     employee1: 100,
+//     employee2: 200,
+//     employee3: 300,
+//     employee4: 400,
+//     employee5: 500,
+//     employee6: 600,
+//     employee7: 700,
+// };
+// let percent = 10;
+// const num = 100;
+// for (let objKey in obj) {
+//     if (obj[objKey] <= 400) {
+//         obj[objKey] = (obj[objKey] * percent / num) + obj[objKey];
+//     }
+// }
+// console.log(obj)
 
 // ! 23
 // Даны следующие массивы:
 // С помощью этих массивов создайте новый объект, сделав его ключами элементы первого массива, а значениями - элементы второго.
 // let arr1 = [1, 2, 3, 4, 5];
 // let arr2 = [6, 7, 8, 9, 10];
+// let obj ={};
+// for (let i = 0; i < 5; i++) {
+//     let key = arr1[i];
+//     obj[key] = arr2[i];
+// }
+// console.log(obj);
 
 // ! 24
 // Дан следующий объект:
 // Найдите сумму ключей этого объекта и поделите ее на сумму значений.
-// let obj = {1: 6, 2: 7, 3: 8, 4: 9, 5: 10};
+let obj = {1: 6, 2: 7, 3: 8, 4: 9, 5: 10};
 
 // ! 25
 // Дан следующий объект:
