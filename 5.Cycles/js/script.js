@@ -435,12 +435,29 @@
 // ! 24
 // Дан следующий объект:
 // Найдите сумму ключей этого объекта и поделите ее на сумму значений.
-let obj = {1: 6, 2: 7, 3: 8, 4: 9, 5: 10};
+// let obj = {1: 6, 2: 7, 3: 8, 4: 9, 5: 10};
+// let sumKey = 0;
+// let sum = 0;
+// for (let objKey in obj) {
+//     sumKey  += +objKey;
+//     sum += obj[objKey];
+// }
+// let res = sumKey / sum
+// console.log(res);
 
 // ! 25
 // Дан следующий объект:
 // Запишите ключи этого объекта в один массив, а значения - в другой.
 // let obj = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5};
+// let meaning = [];
+// let key = [];
+// for (let objKey in obj) {
+//     meaning.push(obj[objKey]);
+//     key.push(objKey);
+// }
+// console.log(meaning);
+// console.log(key);
+
 
 // ! 26
 // Дан следующий объект:
@@ -464,20 +481,35 @@ let obj = {1: 6, 2: 7, 3: 8, 4: 9, 5: 10};
 //     6: 281,
 //     7: 452,
 // };
+// for (let key in obj) {
+//     if (String(obj[key])[0] === '1' || String(obj[key])[0] === '2') {
+//         console.log(String(obj[key]))
+//     }
+// }
 
 // ! 27
 // Дан следующий массив:
 // Создайте из этого массива следующий объект:
 // {1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e'};
 // let arr = ['a', 'b', 'c', 'd', 'e'];
+// let obj = {};
+// for (let i = 0; i < arr.length; i++) {
+//     let key = +i;
+//     obj[key] = arr[i];
+// }
+// console.log(obj);
 
 // ! 28
 // Дан следующий массив:
 // Создайте из этого массива следующий объект:
 // {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5};
 // let arr = ['a', 'b', 'c', 'd', 'e'];
-
-
+// let obj = {};
+//
+// for (let i = 0; i < arr.length; i++) {
+//     obj[arr[i]] = i + 1;
+// }
+// console.log(obj)
 
 
 
