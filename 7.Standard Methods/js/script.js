@@ -65,14 +65,25 @@
 
 
 // Даны переменные a и b. Найдите модуль разности a и b. Проверьте работу скрипта самостоятельно для различных a и b.
-let a = 5;
-let b = 10;
-let res = Math.abs(a - b);
-console.log(res);
+// let a = 5;
+// let b = 10;
+// let res = Math.abs(a - b);
+// console.log(res);
 
+// Дана строка 'я учу javascript!'. Вырежьте из нее слово 'учу' и слово 'javascript' тремя разными способами (через substr, substring, slice).
+// let str = 'я учу javascript!';
+// console.log(str.substr(2, 3) + str.substr(5));
+// console.log(str.substring(2, 5) + str.substring(5));
+// console.log(str.slice(2, 5) + str.slice(5));
 
+// Дана строка '1-2-3-4-5'. Поменяйте все дефисы на точки.
 
-
+// let elem = '-';
+// let str = '1-2-3-4-5';
+// while (str.includes(elem)) {
+//     str = str.replace(elem, '.');
+// }
+// console.log(str);
 
 
 
